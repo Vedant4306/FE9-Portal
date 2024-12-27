@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Academic Calendar 2024-25 Semester I </title>
+        <link rel="stylesheet" href="calendar1.css">
+        <link rel="stylesheet" href="calendar2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="/iidtl-final/Sections/calendarstyle.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+    <div = class="pict">
+
+        <div id="calendar"></div>
+
+
+    </div>
+
+
+
+
+
+
+    <script
+     src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+     <script src="/iidtl-final/calendar3.js"> </script>
+     <script>
+        $(document).ready(function() {
+      $('#calendar').evoCalendar({
+        calendarEvents: [
+        {
+        id: 'event 1', // Event's ID (required)
+        name: "Student Defaulters List 2", // Event name (required)
+        date: "December/2/2024", // Event date (required)
+        type: "none", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event 2', // Event's ID (required)
+        name: "Parents Meet", // Event name (required)
+        date: "December/14/2024", // Event date (required)
+        type: "none", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event 3', // Event's ID (required)
+        name: "Christmas Holiday", // Event name (required)
+        date: "December/25/2024", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      
+      
+      
+    
+        {
+        name: "Preparation Leave",
+        badge: "12/30 - 01/04", // Event badge (optional)
+        date: ["December/30/2024", "January/04/2025"], // Date range
+        description: "Preparation leave for 6 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    
+    ]
+      })
+    })
+       
+     </script>
+    
+    </body>
+</html>
