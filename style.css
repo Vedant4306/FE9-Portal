@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    border: 0;
+}
+html{
+    height: 100%;
+}
+
+html body { 
+    background-color: rgb(253, 253, 205);
+    min-height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.verti-navpanel{
+    width: 190px;
+    height: 750px; 
+    flex-direction: column;
+    border-right: 2px solid;
+}
+
+#logo{
+    object-fit: scale-down;
+    width: 183px;
+    border-radius: 7px;
+    margin: 2px;
+    
+}
+.buttons{
+   width: 10px;
+    
+}
+#btn{
+    height: 30px;
+    
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 13px;
+
+}
+.btncntr{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    background-color: transparent;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    height: fit-content;
+    font-size: 15px;
+    font-family: cursive;
+   opacity: 1;
+   border-radius: 5px;
+
+}
+.btncntr:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+}
+.announcements{
+    height: 340px;
+    width: 100%;
+    border-bottom: 2px solid;   
+}
+a{
+    text-decoration: none;
+}
+#mq1{
+    font-size: 23px;
+    border-bottom: 2px solid;
+    font-family: cursive;
+
+}
+.ann{
+   margin-left: 20px;
+   font-size: 20px;
+   font-family: cursive;
+
+}
